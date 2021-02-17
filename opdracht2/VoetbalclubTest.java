@@ -2,6 +2,7 @@ package opdracht2;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+// Dit is in samenwerking met Iwan van der Kolk gemaakt.
 
 class VoetbalclubTest {
     @Test
