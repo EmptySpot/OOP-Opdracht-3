@@ -4,10 +4,12 @@ public class Voetbalclub {
     private int aantalGewonnen;
     private int aantalGelijk;
     private int aantalVerloren;
-    private String clubNaam;
+    private String clubNaam = "FC";
 
     public Voetbalclub(String clubNaam) {
-        this.clubNaam = clubNaam;
+        if(clubNaam!=null && !clubNaam.equals("")){
+            this.clubNaam = clubNaam;
+        }
     }
 
     public void verwerkResultaat(char ch) {
