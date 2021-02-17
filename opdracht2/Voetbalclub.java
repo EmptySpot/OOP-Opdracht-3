@@ -1,4 +1,4 @@
-package v1d.opdrachten2.opdracht2;
+package opdracht2;
 
 public class Voetbalclub {
     private int aantalGewonnen;
